@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex;
+/*     flex-wrap: wrap; */
+    gap: 20px;
+/* 	justify-content :center; */
+  }
+
+  .hero-item {
+    flex: 1 0 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+.btn{
+	background-color:red;
+}
+
+/*   .hero-item:nth-child(2n) {
+    flex: 1 0 400px;
+    height: 400px;
+  } */
